@@ -20,7 +20,7 @@ public class Main {
                 j++;
             }
 
-            if (current.size() >= 2) {// שמור רק רצפים של 2 ומעלה
+            if (current.size() >= 2) {
                 result.add(current);
             }
 
@@ -31,7 +31,7 @@ public class Main {
     }
 
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 1, 2};
+        int[] arr = {1, 2, 3};
         List<List<Integer>> increasingSubarrays = findMaxIncreasingSubarrays(arr);
 
         for (List<Integer> subarray : increasingSubarrays) {
