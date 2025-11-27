@@ -24,7 +24,7 @@ public class Main {
                 result.add(current);
             }
 
-            i = j; // דילוג ישר אחרי סוף הרצף
+            i = j;
         }
 
         return result;
